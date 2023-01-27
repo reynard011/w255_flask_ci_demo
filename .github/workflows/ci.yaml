@@ -24,7 +24,7 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
 
-      # install python depedencies
+      # install python dependencies
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
